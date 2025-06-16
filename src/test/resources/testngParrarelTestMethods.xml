@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="AutomationSuite" parallel="methods" thread-count="2">
+    <listeners>
+        <listener class-name="com.automation.listeners.TestListener"/>
+        <listener class-name="com.automation.listeners.RetryTransformerThreadSafe"/>
+    </listeners>
+    <test name="AutomationTests">
+        <classes>
+            <class name="com.automation.TestSuiteSetUp"/>
+            <class name="com.automation.GETdemo">
+                <methods>
+                    <include name="validateGetRequest1"/>
+                    <include name="validateGetRequest2"/>
+                </methods>
+            </class>
+
+        </classes>
+    </test>
+</suite>

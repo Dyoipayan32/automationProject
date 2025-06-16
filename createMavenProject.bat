@@ -1,0 +1,1 @@
+mvn archetype:generate -DgroupId=com.automation -DartifactId=automationProject -DarchetypeArtifactId=maven-archetype-quickstart -DinteractiveMode=false
