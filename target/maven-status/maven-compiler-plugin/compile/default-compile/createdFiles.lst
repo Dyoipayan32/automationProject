@@ -1,0 +1,6 @@
+com\automation\constants\EndPoint.class
+com\automation\App.class
+com\automation\helpers\Common.class
+com\automation\helpers\model\UserRequest.class
+com\automation\helpers\model\UserResponse.class
+com\automation\helpers\TestYourPOJO.class

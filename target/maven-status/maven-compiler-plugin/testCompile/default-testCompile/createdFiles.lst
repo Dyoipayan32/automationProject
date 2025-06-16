@@ -1,0 +1,11 @@
+com\automation\testUtils\ConfigManagers.class
+com\automation\POSTdemo.class
+com\automation\TestPOSTUser.class
+com\automation\reportUtils\LogUtil.class
+com\automation\GETdemo.class
+com\automation\TestGETPerson.class
+com\automation\AppTest.class
+com\automation\reportUtils\AllureLogger.class
+com\automation\testUtils\CSVReaderUtil.class
+com\automation\TestDataProvider.class
+com\automation\testUtils\FileOperations.class
